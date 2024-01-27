@@ -48,10 +48,13 @@ body {
     font-size: 20px;
     font-weight: bold;
     }
-    a:hover {
+
+    .links:hover i,
+.links:hover svg path, a:hover {
     color: #000;
+    fill: #000; /* If you want to change the fill color of the SVG */
     background: #fff;
-    }
+}
 .links-align {
     display: flex;
     justify-content: center;
@@ -62,6 +65,10 @@ body {
     width: 30px;
     height: 30px;
 }
+
+/*.links svg path {
+    fill: green; 
+}*/
 
 
 
