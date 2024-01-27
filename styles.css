@@ -49,11 +49,15 @@ body {
     font-weight: bold;
     }
 
-    .links:hover i,
-.links:hover svg path, a:hover {
+    a:hover {
     color: #000;
-    fill: #000; /* If you want to change the fill color of the SVG */
     background: #fff;
+    }
+
+svg {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
 }
 .links-align {
     display: flex;
